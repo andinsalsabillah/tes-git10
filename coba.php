@@ -21,13 +21,13 @@ if(isset($_POST['submit'])){
 </head>
 <body>
     <center>
-        <h2>form pendaftaran</h2>
-        <form action ="daftar.php" method="POST">
-            <input type="text" name="username" placeholder="masukan nama"><br><br>
-            <input type="email" name="email" placeholder="masukan email"><br><br>
-            <input type="password" name="password" placeholder="masukan email"><br><br>
+        <h2>form pendaftaran</h2> 
+        <form action="daftar.php" method="POST">
+            <input type ="text" name="username" placeholder="masukan nama"><br><br>
+            <input type ="email" name="email" placeholder="masukan email"><br><br>
+            <input type ="password" name="password" placeholder="masukan password"><br><br>
             <button type="submit" name="submit">Daftar</button>
-        </form>
+        </from>
     </center>
 </body>
 </html>
